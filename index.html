@@ -1,20 +1,90 @@
 <!DOCTYPE html>
-<html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: rgba(0, 179, 255, 0.813);
+      background-size: cover;
+      color: rgb(249, 213, 8);
+    }
+    a {
+      color: rgba(255, 218, 85, 411);
+    }
+    h1 {
+      font-size: 60px;
+    }
+    img {
+      max-width: 120px;
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgb(0, 81, 255);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+    <script>
+      window.ap3c = window.ap3c || {};
+      var ap3c = window.ap3c;
+      ap3c.cmd = ap3c.cmd || [];
+      ap3c.cmd.push(function() {
+          ap3c.init('YGJyJaVKqz_Z31iMb3p2ZXJ1c2hhbWFsbA', 'https://capturetest.viratesting.qa.lulzderp.com/');
+          ap3c.track({v: 0});
+      });
+      ap3c.activity = function(act) { ap3c.act = (ap3c.act || []); ap3c.act.push(act); };
+      var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://capturetest.viratesting.qa.lulzderp.com/app.js";
+      t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+  </script>
+</head>
 <body>
-<!-- Ortto ozverushamall capture code -->
-<script>
-    window.ap3c = window.ap3c || {};
-    var ap3c = window.ap3c;
-    ap3c.cmd = ap3c.cmd || [];
-    ap3c.cmd.push(function() {
-        ap3c.init('YGJyJaVKqz_Z31iMb3p2ZXJ1c2hhbWFsbA', 'https://capturetest.viratesting.qa.lulzderp.com/');
-        ap3c.track({v: 0});
+  <header>
+    <img src="https://ozverusha.github.io/74BEECF2-9B8C-419F-9369-6C95939DFC4F.JPG">
+    <h1>Ozverusha's blog</h1>
+    <ul>
+      <li><a href="#">Self-care</a></li>
+      <li><a href="#">Discover yourself</a></li>
+      <li><a href="#">Let's chat</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Self-care is not something luxurious. </h2>
+    <p> Content is coming ... </p>
+    <button>Let's talk about pillars</button>
+  </article>
+  <article>
+    <h2>Who am I?</h2>
+    <p>Coming ...</p>
+    <button>Tell me more</button>
+  </article>
+  <article>
+        <h2>About cooking</h2>
+    <p>If you enjoying cooking as a process - we've got a lot in common.</p>
+    <button>Read more</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
     });
-    ap3c.activity = function(act) { ap3c.act = (ap3c.act || []); ap3c.act.push(act); };
-    var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://capturetest.viratesting.qa.lulzderp.com/app.js";
-    t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
-</script>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  </script>
 </body>
-</html>
