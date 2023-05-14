@@ -2,27 +2,30 @@
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <style>
-    header {
+    header { 
       text-align: center;
-      background: rgba(0, 179, 255, 0.813);
+      background-image: url(https://ozverusha.github.io/IMG_0820.jpg);
       background-size: cover;
       color: rgb(249, 213, 8);
-    }
-    a {
-      color: rgba(255, 218, 85, 411);
+      font-family: Arial, Helvetica, sans-serif
     }
     h1 {
       font-size: 60px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a {
+      color: rgb(249, 213);
     }
     img {
       max-width: 120px;
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+      border: 7px ridge lightskyblue;
+      border-radius: 12px;
     }
     ul {
       padding: 10px;
-      background: rgb(0, 81, 255);
+      background: rgb(118, 171, 240);
+      border: 2px dashed lightblue;
     }
     li {
       display: inline;
@@ -32,7 +35,15 @@
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
+      color:rgb(12, 81, 231);
     }
+    button {
+      text-decoration: solid whitesmoke;
+      border: 1px solid blue;
+      border-radius: 20px;
+      background-color: rgba(0, 179, 255, 0.813);
+    }
+
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
@@ -78,11 +89,12 @@
     <button>Tell me more</button>
   </article>
   <article>
-        <h2>About cooking</h2>
+    <h2>About cooking</h2>
     <p>If you enjoying cooking as a process - we've got a lot in common.</p>
     <button>Read more</button>
   </article>
-  <script>
+ 
+ <script>
     $("button").on("click", function() {
       alert("Clicked!");
     });
